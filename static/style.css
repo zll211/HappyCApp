@@ -1,0 +1,301 @@
+.mint-swipe img {
+	height: 150px;
+	width: 100%;
+}
+
+.mint-swipe {
+	height: 150px;
+}
+
+.mint-swipe-indicator {
+	background: #888;
+	opacity: 0.9;
+}
+
+.course {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.course a {
+	width: 25%;
+	text-align: center;
+	font-size: 12px;
+	margin: 10px 0;
+	color: #2c3e50;
+	text-decoration: none;
+}
+
+.course span img {
+	width: 40px;
+	margin: 0 auto;
+	margin-bottom: 6px;
+	border-radius: 50%;
+	background: #efefef;
+	padding: 10px;
+}
+
+.mint-navbar .mint-tab-item {
+	background: #efefef;
+}
+
+.mint-tab-item-label {
+	font-size: 16px;
+}
+
+.mint-navbar .mint-tab-item.is-selected {
+	background: #C01920;
+	color: #fff;
+}
+
+.mint-cell-wrapper {
+	background-image: none;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.mint-tab-container-item a {
+	text-decoration: none;
+	color: #2c3e50;
+}
+
+.link {
+	display: flex;
+	padding: 12px;
+}
+
+.link .left {
+	width: 66%;
+}
+
+.link .left span {
+	width: 49%;
+	display: inline-block;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	box-sizing: border-box;
+}
+
+.link .left span img {
+	width: 100%;
+}
+
+.link .right {
+	width: 34%;
+}
+
+.link .right img {
+	width: 100%;
+}
+
+.mint-cell-title {
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.foot-nav {
+	display: flex;
+	justify-content: space-around;
+	height: 49px;
+	border-bottom: 1px solid #ccc;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #C01920;
+	color: #fff;
+	font-size: 10px;
+}
+
+.foot-nav img {
+	height: 20px;
+	margin: 4px auto;
+}
+
+.foot-nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+img {
+	display: block
+}
+
+.header {
+	height: 44px;
+	background: #c01920;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.header img {
+	height: 40px;
+	margin: 0 auto;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	height: 44px;
+	border-bottom: 1px solid #ccc;
+	align-items: center;
+}
+
+.nav img {
+	width: 22px;
+}
+
+.nav a {
+	color: #2C3E50;
+	text-decoration: none;
+}
+
+.nav a.router-link-active {
+	color: #C01920;
+}
+
+.content {
+	transition: .3s;
+	position: absolute;
+	top: 89px;
+	bottom: 50px;
+	width: 100%;
+	overflow-y: auto;
+}
+
+.animate-enter {
+	transform: translate(100%, 0);
+	opacity: 0;
+}
+
+.animate-leave-active {
+	transform: translate(-100%, 0);
+	opacity: 0;
+}
+
+body,ul,h3,p{
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+#app {
+	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #2c3e50;
+}
+
+.text {
+	padding: 12px;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 44px;
+}
+
+p {
+	line-height: 23px;
+	color: #888888;
+	font-size: 12px;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.more {
+	border-radius: 4px;
+	background: #C01920;
+	color: #fff;
+	height: 40px;
+	margin: 0 auto;
+	width: 100px;
+	padding: 0 8px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.honor {
+	padding-top: 12px;
+}
+
+.honor_pic img {
+	height: 250px;
+	width: 100%;
+	border-radius: 10%;
+}
+
+.honor_pic {
+	height: 250px;
+	padding: 12px;
+}
+
+li {
+	display: flex;
+	padding: 12px;
+}
+
+li img {
+	width: 30%;
+	height: 100px;
+	margin-right: 12px;
+}
+
+li .text {
+	text-align: left;
+}
+
+li h3 {
+	font-size: 16px;
+	line-height: 44px;
+}
+
+li p {
+	line-height: 23px;
+	color: #888888;
+	font-size: 12px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.environment {
+	text-align: left;
+}
+
+.mint-radiolist {
+	text-align: left;
+}
+
+
+
+.back {
+	border-radius: 4px;
+	background: #C01920;
+	color: #fff;
+	height: 30px;
+	margin: 10px;
+	width: 40px;
+	padding: 0 8px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+}
+/*p {
+	padding: 12px;
+}*/
+
